@@ -9,7 +9,7 @@
                             Our current projects:
                             <ul style="text-align:left !important;">
                                 <li>
-                                    Budgeting System - <a href="https://budget.cdjmdev.com" target="_blank">budget.cdjmdev.com</a><br />
+                                    EZincometracker - <a href="https://ezincometracker.com" target="_blank">ezincometracker.com</a><br />
                                     <div style="padding:15px 0px;">
                                         Secure budgeting system that can help user track income and spending, set savings/investment goals, 
                                     and help user detect what that income is being spent on by percentages.
