@@ -23,7 +23,7 @@
                         <button class="btn btn-outline-light" style="position:absolute;right:0px;">Send</button>
                     </div>
                     <div style="color:white;padding-right:20px;font-size:90%;text-align: left !important;">
-                        Formal message structure recommended.<br />Please allow up to 1 business day for a response. 
+                        Please allow up to<br /> 1 business day for a response. 
                     </div>
                 </div>
             </form>

@@ -9,18 +9,18 @@
                             Our current projects:
                             <ul style="text-align:left !important;">
                                 <li>
-                                    EZincometracker - <a href="https://ezincometracker.com" target="_blank">ezincometracker.com</a><br />
+                                    EZ-Budget - <a href="https://ezbudget.app/" target="_blank">ezbudget.app</a><br />
                                     <div style="padding:15px 0px;">
-                                        Secure budgeting system that can help user track income and spending, set savings/investment goals, 
+                                        Secure budgeting app that can help user track income and spending, set savings/investment goals, 
                                     and help user detect what that income is being spent on by percentages.
                                     </div>
                                 </li>
-                                <li>
+                                <!--<li>
                                     Cougar Dash - <a href="#">Domain acquisition in progress</a><br />
                                     <div style="padding:15px 0px;">
                                         Snack delivery from the Cougareat Food Court, BYU Book Store, or BYU Creamery to any user on Brigham Young University Campus.
                                     </div>
-                                </li>
+                                </li>-->
                             </ul>
                         </p>
                     </div>
