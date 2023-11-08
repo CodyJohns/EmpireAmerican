@@ -15,12 +15,13 @@
                                     and help user detect what that income is being spent on by percentages.
                                     </div>
                                 </li>
-                                <!--<li>
-                                    Cougar Dash - <a href="#">Domain acquisition in progress</a><br />
+                                <li>
+                                    Regex-GPT - <a href="https://codyjohns.github.io/Regex-GPT-App/" target="_blank">https://codyjohns.github.io/Regex-GPT-App/</a><br />
                                     <div style="padding:15px 0px;">
-                                        Snack delivery from the Cougareat Food Court, BYU Book Store, or BYU Creamery to any user on Brigham Young University Campus.
+                                        Prototype regular expression generation using OpenAI's ChatGPT 4 Turbo. Includes the ability to add and run testcases for
+                                        the generated regular expression.
                                     </div>
-                                </li>-->
+                                </li>
                             </ul>
                         </p>
                     </div>
