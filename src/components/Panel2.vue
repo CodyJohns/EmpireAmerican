@@ -16,9 +16,9 @@
                                     </div>
                                 </li>
                                 <li>
-                                    Regex-GPT - <a href="https://aixpwkerwshhs2xpfasmlfvcva.apigateway.us-phoenix-1.oci.customer-oci.com/" target="_blank">Link here</a><br />
+                                    Regex-Gen - <a href="https://regex-gen.cdjmdev.com/" target="_blank">Link here</a><br />
                                     <div style="padding:15px 0px;">
-                                        Prototype regular expression generation using OpenAI's ChatGPT 4 Turbo. Includes the ability to add and run testcases for
+                                        Prototype regular expression generation using OpenAI's ChatGPT. Includes the ability to add and run testcases for
                                         the generated regular expression.
                                     </div>
                                 </li>

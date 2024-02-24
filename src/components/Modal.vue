@@ -3,19 +3,21 @@
         <div class="modal-cont">
             <div class="overlay-top">
                 <div style="position:relative">
-                    <button class="btn btn-outline-danger" style="position:absolute;right:0px;" @click="toggleOverlay">X</button>
+                    <button class="btn btn-close" style="position:absolute;right:0px;" @click="toggleOverlay"></button>
                 </div>
                 <div class="col-12" style="text-align: left !important;">
-                    <h3 style="margin:0px;padding-top:5px;">Leave a message:</h3>
+                    <span style="margin:0px;padding-top:5px;">Leave a message:</span>
                 </div>
             </div>
             <form @submit.prevent="send">
-                <div style="padding: 20px;">
-                    <div class="col-12" style="padding-top:20px;text-align: left !important;">
-                        <input type="email" v-model="sender" placeholder="Email..." required/>
+                <div class="p-3">
+                    <div class="mb-3">
+                        <label for="email1" class="form-label">Email address</label>
+                        <input type="email" v-model="sender" class="form-control" id="email1" placeholder="Email..." required>
                     </div>
-                    <div class="col-12" style="padding-top:20px;text-align: left !important;">
-                        <textarea v-model="message" placeholder="Type your message here..." required></textarea>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" v-model="message" placeholder="Type your message here..." required></textarea>
                     </div>
                 </div>
                 <div class="col-12 overlay-bottom">

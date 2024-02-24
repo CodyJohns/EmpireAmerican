@@ -1,8 +1,7 @@
 <template>
     <div class="col-12 text-center d-flex justify-content-center align-items-center b-diamonds h-v70">
         <div>
-            <h1 class="cursive-text">Business done well.</h1>
-            <h3>Empire American</h3>
+            <h1 class="cursive-text">Business software<br />done well.</h1>
             <blockquote class="pt-4" style="width:360px;margin:0 auto;">
                 "There’s no shortage of remarkable ideas, what’s missing is the will to execute them."<br />- Seth Godin
             </blockquote>

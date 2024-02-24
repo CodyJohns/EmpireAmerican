@@ -2,10 +2,15 @@
     <div class="col-12 full-h">
         <Modal v-if="show_overlay" @showOverlay="toggleModal" @displayMessage="showPopup" />
         <Popup v-if="show_popup" :message="popup_message" :key="popup_message" />
-        <div class="col-12 text-center pt-3">
-            <span style="position:absolute;left:3%;top:20px;" class="contact-info"><font-awesome-icon icon="fa-solid fa-phone" /> (972) 201-7993</span>
-            <img src="@/assets/logo_small.png" height="60" />  
-            <span style="position:absolute;right:3%;top:20px;" class="contact-info">support@empire-american.com <font-awesome-icon icon="fa-solid fa-envelope" /></span>
+        <div class="d-flex justify-content-between p-4 top-nav-links">
+            <span><font-awesome-icon icon="fa-solid fa-envelope" /> support@empire-american.com</span>
+            <span><a href="https://portal.empire-american.com/"><font-awesome-icon icon="fa-solid fa-computer" /> Client Portal</a></span>
+        </div>
+        <div class="col-12 pt-3 d-flex justify-content-center logo">
+            <div class="d-flex">
+                <img src="@/assets/logo_new.png" height="60" />
+                <h4 class="mt-1 ms-2">Empire<br />American</h4>
+            </div>
         </div>
         <Landing />
         <Panel2 />
@@ -24,9 +29,18 @@ body {
     height: 100vh;
 }
 
+.logo {
+    margin-top: -70px;
+}
+
 @media only screen and (max-width: 730px) {
-    .contact-info {
-        display:none;
+    .logo {
+        margin-top: 0px;
+    }
+
+    .top-nav-links {
+        background-color: #efefef;
+        border-bottom: 2px solid #e5e5e5;
     }
 }
 </style>
@@ -57,9 +71,6 @@ const Home = {
             show_popup: false,
             popup_message: ""
         }
-    },
-    created() {
-        document.title = "Empire American | Business done well";
     },
     methods: {
         toggleModal(bool) {
